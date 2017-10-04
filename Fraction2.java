@@ -91,7 +91,7 @@ public class Fraction2
         double x,y;
         x= (double)f1.numerateur/(double) f1.denominateur;
         y= (double) f2.numerateur /(double) f2.denominateur;
-        if(a>b)
+        if(x>y)
             return false;
         return true;
     }
